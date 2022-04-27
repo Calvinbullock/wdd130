@@ -3,10 +3,35 @@ body {
 }
 
 .A1 {
-    margin-left: auto;
+    margin-left: center;
 }
 
-body{
-    background: rgb(0, 242, 255);
-    color: rgb(0, 0, 0);
+body {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+a{
+    color: rgb(159, 176, 0);
+}
+
+ul{
+    margin-left: center;
+    background-color: rgb(9, 0, 74);
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.topnav a{
+    float: left;
+    /* color: #f2f2f2; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
