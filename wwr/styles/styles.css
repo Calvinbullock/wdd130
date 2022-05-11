@@ -48,9 +48,12 @@
     color: #E5E5E5;
 }
 
-.msg h2 .msg p {
-    color: green;
-    /* this did not change anything, Why? TODO*/
+.msg h2 {
+    color: #FCA311;
+}
+
+.msg p {
+    color: #E5E5E5;
 }
 
 .logo{
