@@ -28,6 +28,7 @@
 
 .book,
 .join {
+    text-align: center;
     background-color: #FCA311;
     color: #14213D;
     text-decoration: none;
@@ -98,6 +99,7 @@ footer h3 {
 }
 
 footer a {
+    text-align: center;
     color: #000;
     text-decoration: none;
 }
