@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Oxygen&display=swap');
 
 /* ID mods */
 #id {
@@ -30,6 +30,7 @@
     text-align: center;
     background-color: #FCA311;
     color: #14213D;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -41,13 +42,14 @@
 
 .home-title {
     color: #000000;
+    font-size: 2em;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .msg {
     background-color: #14213D;
     color: #E5E5E5;
     text-align: center;
-    font-family: 'Smooch', cursive;
 }
 
 .msg h2 {
@@ -56,6 +58,7 @@
 
 .msg p {
     color: #E5E5E5;
+    font-size: 8em;
 }
 
 .logo{
@@ -74,6 +77,7 @@ main {
 
 body {
     background-color: #fcfbfb;
+    font-family: 'Cabin', sans-serif;
 }
 
 header {
