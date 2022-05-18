@@ -1,0 +1,55 @@
+.Red {
+    width: 60%;
+    height: 100px;
+    margin-left: 20%;
+    background-color: red;
+}
+
+.Blue {
+    width: 80%;
+    height: 120px;
+    margin-left: 10%;
+    background-color: blue;
+
+}
+
+.Green {
+    background-color: green;
+    height: 150px;
+    width: 100%;
+    margin-left: 0%;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: left;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: right;
+}
+
+.parent {
+    padding-top: 20%;
+    clear: both;
+}
+
+.outerbox {
+    max-width: 60%;
+    padding: 20%;
+}
+
+body {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    padding: 50px;
+    margin: 0%;
+}
