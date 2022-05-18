@@ -1,5 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Oxygen&display=swap');
 
+
+/* other mods */
+main {
+    text-align: center;
+}
+
+body {
+    background-color: #fcfbfb;
+    font-family: 'Cabin', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FCA311;
+}
+
+nav a:hover {
+    background-color: #14213D;
+    color: #FCA311;
+}
+
+nav a {
+    text-align: center;
+    color: #14213D;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #FCA311;
+}
+
+footer h3 {
+    color: #000;
+}
+
+footer a {
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FCA311;
+    background-color: #14213D;
+    text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+
+h4 {
+    color: #000000;
+}
+
 /* ID mods */
 #id {
     max-width: 1600px;
@@ -50,6 +106,7 @@
     background-color: #14213D;
     color: #E5E5E5;
     text-align: center;
+    line-height: 1.5em;
 }
 
 .msg h2 {
@@ -68,61 +125,6 @@
 .icon {
     width: 80px;
 }
-
-/* other mods */
-main {
-    text-align: center;
-}
-
-
-body {
-    background-color: #fcfbfb;
-    font-family: 'Cabin', sans-serif;
-}
-
-header {
-    background-color: #FCA311;
-}
-
-nav a:hover {
-    background-color: #14213D;
-    color: #FCA311;
-}
-
-nav a {
-    text-align: center;
-    color: #14213D;
-    text-decoration: none;
-}
-
-footer {
-    background-color: #FCA311;
-}
-
-footer h3 {
-    color: #000;
-}
-
-footer a {
-    text-align: center;
-    color: #000;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #FCA311;
-    background-color: #14213D;
-    text-decoration: underline;
-}
-
-h4 {
-    color: #000000;
-}
-
-p {
-    font-family: "wingdings 3";
-}
-
 
 /* 
 <td class="primary">000000</td>
