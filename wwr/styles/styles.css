@@ -155,12 +155,12 @@ h4 {
 }
 
 .card-img {
-    border: 10px, black;
+    border: 10px solid #14213D;
 }
 
 /* 
-<td class="primary">000000</td>
-<td class="secondary">14213D</td>
-<td class="accent1">FCA311</td>
-<td class="accent2">E5E5E5</td>
+<td class="primary">000000</td> black
+<td class="secondary">14213D</td> blue
+<td class="accent1">FCA311</td> ornage
+<td class="accent2">E5E5E5</td> grey
 */
