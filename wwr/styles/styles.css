@@ -111,6 +111,7 @@ h4 {
     color: #000000;
     font-size: 2em;
     font-family: 'Oxygen', sans-serif;
+    margin-top: 10px;
 }
 
 .msg {
@@ -127,7 +128,7 @@ h4 {
 
 .msg p {
     color: #E5E5E5;
-    font-size: 8em;
+    font-size: .8em;
     padding-bottom: 15px;
 }
 
