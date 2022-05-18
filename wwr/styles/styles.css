@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
 /* ID mods */
 #id {
     max-width: 1600px;
@@ -45,6 +47,7 @@
     background-color: #14213D;
     color: #E5E5E5;
     text-align: center;
+    font-family: 'Smooch', cursive;
 }
 
 .msg h2 {
@@ -110,6 +113,10 @@ footer a:hover {
 
 h4 {
     color: #000000;
+}
+
+p {
+    font-family: "wingdings 3";
 }
 
 
