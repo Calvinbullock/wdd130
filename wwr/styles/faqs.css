@@ -18,6 +18,9 @@ h5 {
     padding-bottom: 0%;
     height: 85em;
     width: auto;
+
+    
+
 }
 
 .faq1 {
@@ -94,10 +97,9 @@ h5 {
     border: 6px solid #14213D;
 
     width: 100%;
-    grid-column: 5/11;
+    grid-column: 5/10;
     grid-row: 1/7;
     box-shadow: 5px 5px 10px #6f7364;
-
 }
 
 .msg {
@@ -132,51 +134,6 @@ h5 {
 .faq-box:hover {
     background-color: #14213D;
     color: #FCA311;
-}
-
-@media only screen and (max-width: 1000px) {
-
-    .faq-grid {
-        margin-top: 2em;
-        height: 135em;
-    }
-
-    .faq1 {
-        width: 90%;
-        float: none;
-    }
-
-    .faq2 {
-        width: 90%;
-        float: none;
-    }
-
-    .faq3 {
-        width: 90%;
-        float: none;
-    }
-
-    .faq4 {
-        width: 90%;
-        float: none;
-    }
-
-    .faq5 {
-        width: 90%;
-        float: none;
-    }
-
-    .faq6 {
-        width: 90%;
-        float: none;
-    }
-
-    .mountains,
-    .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -224,10 +181,84 @@ h5 {
         display: inline-block;
     }
 
+    .footer-box {
+        padding-top: 7em;
+        height: 25em;
+        width: 100%;
+        margin-top: 4em;
+        display: block;
+    }
+
     .mountains,
     .msg {
-        width: 80%;
+        width: 90%;
         display: block;
         margin: 0 auto;
+        margin-top: 2em;
+    }
+
+    .faq-list-li {
+        margin-top: 2em;
+        font-size: 0.5em;
+    }
+
+    footer {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .faq-grid {
+        margin-top: 2em;
+        height: 135em;
+    }
+
+    .faq1 {
+        width: 90%;
+        float: none;
+    }
+
+    .faq2 {
+        width: 90%;
+        float: none;
+    }
+
+    .faq3 {
+        width: 90%;
+        float: none;
+    }
+
+    .faq4 {
+        width: 90%;
+        float: none;
+    }
+
+    .faq5 {
+        width: 90%;
+        float: none;
+    }
+
+    .faq6 {
+        width: 90%;
+        float: none;
+    }
+
+    .mountains,
+    .msg {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+
+    .faq-list-li {
+        margin-top: 2em;
+        font-size: 0.5em;
+    }
+
+    footer {
+        width: 90%;
     }
 }
