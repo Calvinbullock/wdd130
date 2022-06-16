@@ -7,17 +7,16 @@ body {
 }
 
 body {
-    background: rgb(0, 0, 0);
+    background: rgb(53, 49, 49);
     color: rgb(255, 255, 255);
 }
 
 a{
-    color: rgb(0, 0, 0);
+    color: rgb(20, 170, 193);
 }
 
 ul{
     margin-left: center;
-    background-color: rgb(103, 110, 0);
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
