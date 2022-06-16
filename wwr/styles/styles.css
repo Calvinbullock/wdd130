@@ -441,6 +441,30 @@ h5 {
     box-shadow: 5px 5px 10px #14213D;
 }
 
+.faq-box {
+    text-align: center;
+    background-color: #FCA311;
+    color: #14213D;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.faq-list {
+    list-style: none
+}
+
+.faq-list-li {
+    margin-top: 2em;
+}
+
+.faq-box:hover {
+    background-color: #14213D;
+    color: #FCA311;
+}
+
 @media only screen and (max-width: 1000px) {
 
     .faq-grid {
@@ -476,6 +500,13 @@ h5 {
     .faq6 {
         width: 90%;
         float: none;
+    }
+
+    .mountains,
+    .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -522,5 +553,12 @@ h5 {
         width: 80%;
         margin-bottom: 2;
         display: inline-block;
+    }
+
+    .mountains,
+    .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
     }
 }
