@@ -84,6 +84,16 @@ footer {
     bottom: 0;
     width: auto;
     margin-top: 2em;
+    color: var(--background-colour);
+}
+
+footer a:link,
+footer a:visited {
+    color: var(--background-colour);
+}
+
+footer a:hover {
+    color: var(--accent2-color);
 }
 
 .logo_link {
