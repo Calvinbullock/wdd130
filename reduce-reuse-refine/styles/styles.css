@@ -127,6 +127,18 @@ footer a:hover {
     margin-top: -6em;
 }
 
+.main-title {
+    color: var(--accent2-color);
+    font-size: 50px;
+    padding: 1.5em;
+    height: 100%;
+    width: 100%;
+    grid-column: 4/10;
+    grid-row: 1/2;
+    z-index: 5;
+    text-shadow: 4px 2px 8px #162239;
+}
+
 .welcome-msg {
     background-color: #162239c5;
     color: var(--accent2-color);
