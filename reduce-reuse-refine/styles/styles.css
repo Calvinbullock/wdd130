@@ -137,6 +137,7 @@ footer a:hover {
     grid-row: 1/2;
     z-index: 5;
     text-shadow: 4px 2px 8px #162239;
+    text-align: center;
 }
 
 .welcome-msg {
@@ -198,15 +199,28 @@ footer a:hover {
 .tech-par {
     color: #FFFFFF;
     padding: 1em;
-    grid-row: 4/6;
-    grid-column: 1/5;
+    width: 95%;
+    grid-column: 1/9;
+    grid-row: 5/7;
 }
 
-.article-img {
-    float: right;
-    margin: 5px;
+.tech-img {
+    margin: 2em;
+    max-width: 75%;
+    padding-left: 5em;
+    grid-column: 8/11;
+    grid-row: 5/7;
+    z-index: -1;
 }
+
 
 /* --------- --------- --------- */
 /* -------- cloth Page --------- */
 /* --------- --------- --------- */
+
+.text-par {
+    color: #FFFFFF;
+    padding: 1em;
+    grid-column: 1/12;
+    grid-row: 2/3;
+}
