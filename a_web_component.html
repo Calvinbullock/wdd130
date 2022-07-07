@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a_web_component.css">
+
+</head>
+
+<body>
+    <div class="sidenav">
+        <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>
+        <a
+            href="https://landing.experience.apple/safari/1/US/?&cid=wwa-us-kwgo-features-slid-----&mtid=20925e1t39169&aosid=p238&mnid=sBasJHqM3-dc_mtid_20925e1t39169_pcrid_601132883692_pgrid_144043935304_">safari</a>
+        <button class="dropdown-btn">Chromium
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a
+                href="https://chromeenterprise.google/browser/download/?utm_source=adwords&utm_medium=cpc&utm_campaign=2022-H2-chromebrowser-paidmed-paiddisplay-other-chromebrowserent&utm_term=downloadnow-chrome-browser-download&utm_content=GCEJ&brand=GCEJ&gclsrc=aw.ds&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvzzH4KGOdek_2hwLxzBWRN9qit4L0eCE9juxbxmhixVUJCDQp_KHRoaApWNEALw_wcB#windows-tab">chrome</a>
+            <a href="https://www.microsoft.com/en-us/edge">edge</a>
+            <a href="https://vivaldi.com/download/">vavaldi</a>
+            <a
+                href="https://www.opera.com/?utm_campaign=%2301%20-%20US%20-%20Search%20-%20EN%20-%20Branded%20-%202017&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvzMGHufPTY1vZzIqhgWw-kFbBRKG1cvsYJH8jGXG5J2DP2OqcNanoIaAomrEALw_wcB">opera</a>
+        </div>
+    </div>
+
+    <div class="main-body">
+        <h1>what is a web browser?</h1>
+        <p>
+            A web browser us a program that interacts with a search engine display web content. It reads diffrant file
+            formats and interprets them to display a webpage.
+            There are a few diffrant browsers to choose from you can see them listed along the side bar.
+        </p>
+        <p>
+            You may notice that one dosn't sound quite right. Chromeium is not a browser
+            but a browser engine. If you click it you can see a few of the populer Chromeium browsers.
+        </p>
+    </div>
+
+    <script>
+        //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>
