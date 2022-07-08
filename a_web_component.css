@@ -45,13 +45,13 @@
 /* Add an active class to the active dropdown button */
 .active {
     background-color: green;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
     display: none;
-    background-color: #262626;
+    background-color: #159e00;
     padding-left: 8px;
 }
 
