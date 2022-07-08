@@ -206,11 +206,15 @@ footer a:hover {
 
 .tech-img {
     margin: 2em;
-    max-width: 75%;
-    padding-left: 5em;
-    grid-column: 8/11;
+    max-width: 100%;
+    padding-left: 4em;
+    grid-column: 8/10;
     grid-row: 5/7;
     z-index: -1;
+}
+
+.img{
+    width: 500px;
 }
 
 
